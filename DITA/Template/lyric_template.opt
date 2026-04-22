@@ -13,6 +13,7 @@
 
     <resources>
       <css file="css/lyric.css"/>
+      <css file="css/notes.css"/>
       <logo file="images/logo.png" alt="Lyric logo"/>
       <fileset>
         <include name="images/**/*"/>
