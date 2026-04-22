@@ -13,10 +13,7 @@
 
     <resources>
       <css file="css/lyric.css"/>
-      <logo
-        file="images/logo.png"
-        alt="Lyric logo"
-        new-tab="false"/>
+      <logo file="images/logo.png" alt="Lyric logo"/>
       <fileset>
         <include name="images/**/*"/>
       </fileset>

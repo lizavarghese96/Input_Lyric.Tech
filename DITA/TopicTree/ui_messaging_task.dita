@@ -3,28 +3,39 @@
 <concept id="ui_messaging_task">
     <title>UI Messaging Improvements</title>
     <conbody>
-        <section id="section_vvb_lhc_1jc"><title>2.1 Modal Message</title><p>Recommended
-                update</p><image href="IMG/ModalMessage.png" id="image_ozc_nhc_1jc" align="center"
-                scalefit="yes"/><p><b>Title:</b> Delete Table</p><p><b>Body:</b> Are you sure you
-                want to delete this table?</p><p><b>Warning message:</b> This table may be used in
-                one or more interfaces for pivot tables or charts. Deleting it could affect those
-                interfaces.</p><p><b>Buttons:</b>Cancel | Delete Table</p></section>
-        <section id="section_gzw_xjc_1jc"><title>2.2 Azure Blob Connection Screen
-                Copy</title><p>Recommended copy</p><image href="IMG/AzureBlob.png"
-                id="image_rhd_jkc_1jc" align="center" scalefit="yes"/><p><b>Source
-                    Name</b></p><p><b>Placeholder:</b> Enter a source name</p><p><b>Helper text:</b>
-                Enter a name to help you identify this connection.</p><p><b>Azure Blob Storage
-                    Account Key</b></p><p><b>Placeholder:</b> Enter the storage account
-                    key</p><p><b>Helper text:</b> Enter the access key for the Azure Blob Storage
-                account.</p><p>For example:
-                    <codeph>Z8kZptegFx394vm+PJHGTvdRncaYS+JhLKdj789YNmD+iyGTnG+PV+POiuYNhBg/ACS+LKjd%4FG3FHGN12Nd==</codeph></p><p><b>Azure
-                    Blob Storage Container Name</b></p><p><b>Placeholder:</b> Enter the container
-                name</p><p><b>Helper text:</b> Enter the name of the Azure Blob Storage
-                container.</p><dl>
+        <section id="section_vvb_lhc_1jc">
+            <title>2.1 Modal Message</title>
+            <p>Recommended update</p>
+            <image href="IMG/ModalMessage.png" id="image_ozc_nhc_1jc" align="left" scalefit="yes"
+                placement="break"/>
+            <p><b>Title:</b> Delete Table</p>
+            <p><b>Body:</b> Are you sure you want to delete this table?</p>
+            <p><b>Warning message:</b> This table may be used in one or more interfaces for pivot
+                tables or charts. Deleting it could affect those interfaces.</p>
+            <p><b>Buttons:</b>Cancel | Delete Table</p>
+        </section>
+        <section id="section_gzw_xjc_1jc">
+            <title>2.2 Azure Blob Connection Screen Copy</title>
+            <p>Recommended copy</p>
+            <image href="IMG/AzureBlob.png" id="image_rhd_jkc_1jc" align="left" scalefit="yes"
+                placement="break"/>
+            <p><b>Source Name</b></p>
+            <p><b>Placeholder:</b> Enter a source name</p>
+            <p><b>Helper text:</b> Enter a name to help you identify this connection.</p>
+            <p><b>Azure Blob Storage Account Key</b></p>
+            <p><b>Placeholder:</b> Enter the storage account key</p>
+            <p><b>Helper text:</b> Enter the access key for the Azure Blob Storage account.</p>
+            <p>For example:
+                    <codeph>Z8kZptegFx394vm+PJHGTvdRncaYS+JhLKdj789YNmD+iyGTnG+PV+POiuYNhBg/ACS+LKjd%4FG3FHGN12Nd==</codeph></p>
+            <p><b>Azure Blob Storage Container Name</b></p>
+            <p><b>Placeholder:</b> Enter the container name</p>
+            <p><b>Helper text:</b> Enter the name of the Azure Blob Storage container.</p>
+            <dl>
                 <dlentry>
                     <dt>Streams to Sync</dt>
                     <dd><b>Action:</b> Add</dd>
                 </dlentry>
-            </dl></section>
+            </dl>
+        </section>
     </conbody>
 </concept>

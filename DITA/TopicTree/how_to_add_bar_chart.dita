@@ -12,32 +12,35 @@
         <steps>
             <step>
                 <cmd>Open the required interface.<image href="IMG/Screen1.png"
-                        id="image_dcg_1tb_1jc" align="center"/></cmd>
+                        id="image_dcg_1tb_1jc" align="left" placement="break" scalefit="yes"/></cmd>
             </step>
             <step>
                 <cmd>Click <b>Chart</b> in the widget tray.</cmd>
             </step>
             <step>
                 <cmd>Select <b>Bar</b> in the <b>Add Chart</b> menu.<image href="IMG/Screen2.png"
-                        id="image_vw5_htb_1jc" scalefit="yes" align="center"/></cmd>
+                        id="image_vw5_htb_1jc" scalefit="yes" align="left" placement="break"/></cmd>
             </step>
             <step>
                 <cmd>Enter a name for the chart in the <b>Widget Title</b> field in the
                     configuration panel displayed on the right side of the page.<image
-                        href="IMG/Screen3.png" id="image_tjy_b5b_1jc" align="center" scalefit="yes"
-                    /></cmd>
+                        href="IMG/Screen3.png" id="image_tjy_b5b_1jc" align="left" scalefit="yes"
+                        placement="break"/></cmd>
             </step>
             <step>
                 <cmd>Click on the <b>Add Column</b> drop-down menu from the <b>X Axis</b> menu under
                     the <b>Data</b> tab.<image href="IMG/Screen4.png" id="image_r4f_f5b_1jc"
-                        align="center" scalefit="yes"/></cmd>
+                        align="left" scalefit="yes" placement="break"/></cmd>
             </step>
             <step>
                 <cmd>Select the required column to use as the category axis and repeat the same as
                     Step 5 to select the required columns from <b>Y Axis</b> menu.</cmd>
-                <info><note id="note_dtz_bwb_1jc">You can select more than one column for both
-                        axes.</note><image href="IMG/Screen5.png" id="image_jf1_kwb_1jc"
-                        align="center" scalefit="yes"/></info>
+                <info>
+                    <note id="note_dtz_bwb_1jc">You can select more than one column for both
+                        axes.</note>
+                    <image href="IMG/Screen5.png" id="image_jf1_kwb_1jc" align="left" scalefit="yes"
+                        placement="break"/>
+                </info>
                 <info>After you add the X-axis and Y-axis fields, the chart preview updates.</info>
             </step>
             <step>
@@ -47,14 +50,14 @@
             <step>
                 <cmd>Click on Pick Color for Production icon to customise the columns which is
                     indicated as the bar color.<image href="IMG/Screen6.png" id="image_dr1_cxb_1jc"
-                        align="center" scalefit="yes"/></cmd>
+                        align="left" scalefit="yes" placement="break"/></cmd>
                 <info>In the example shown, separate colors are applied to <b>Production</b> and
                         <b>Demand</b>.</info>
             </step>
             <step>
                 <cmd>Click on the Series Settings icon to configure the label.<image
-                        href="IMG/Screen7.png" id="image_ejl_mxb_1jc" align="center" scalefit="yes"
-                    /></cmd>
+                        href="IMG/Screen7.png" id="image_ejl_mxb_1jc" align="left" scalefit="yes"
+                        placement="break"/></cmd>
             </step>
             <step>
                 <cmd>Turn on the <b>how Labels</b> toggle button.</cmd>
@@ -68,8 +71,8 @@
             <step>
                 <cmd>Review the bar chart details and then click <b>Apply</b>.</cmd>
                 <stepresult>The bar chart is added to the <b>Interface</b> page.<image
-                        href="IMG/Screen8.png" id="image_l3l_1yb_1jc" align="center" scalefit="yes"
-                    /></stepresult>
+                        href="IMG/Screen8.png" id="image_l3l_1yb_1jc" align="left" scalefit="yes"
+                        placement="break"/></stepresult>
             </step>
         </steps>
     </taskbody>
