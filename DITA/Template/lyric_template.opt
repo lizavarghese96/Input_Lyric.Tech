@@ -4,11 +4,27 @@
   <description>Lyric styled WebHelp output</description>
 
   <webhelp>
-  <branding>
-    <logo file="img/logo.jpg"/>
-  </branding>
+    <tags>
+      <tag>tiles</tag>
+      <tag>dark</tag>
+    </tags>
+
+    <preview-image file="images/preview.png"/>
+
     <resources>
       <css file="css/lyric.css"/>
+      <logo
+        file="images/logo.png"
+        alt="Lyric logo"
+        new-tab="false"/>
+      <fileset>
+        <include name="images/**/*"/>
+      </fileset>
     </resources>
+
+    <parameters>
+      <parameter name="webhelp.show.main.page.tiles" value="yes"/>
+      <parameter name="webhelp.show.main.page.toc" value="no"/>
+    </parameters>
   </webhelp>
 </publishing-template>
