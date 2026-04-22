@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<publishing-template>
+  <name>Lyric Custom Template</name>
+  <description>Lyric styled WebHelp output</description>
+
+  <resources>
+    <css file="css/lyric.css"/>
+  </resources>
+</publishing-template>
