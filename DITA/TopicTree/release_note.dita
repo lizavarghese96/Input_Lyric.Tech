@@ -2,8 +2,6 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="release_note">
     <title>Release Note</title>
-    <shortdesc>TBD</shortdesc>
-    <conbody>
-        <p></p>
-    </conbody>
+    <shortdesc>This documentation showcases two types of release notes. </shortdesc>
+    <conbody/>
 </concept>

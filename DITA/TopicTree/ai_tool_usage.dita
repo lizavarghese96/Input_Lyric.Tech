@@ -2,8 +2,260 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="ai_tool_usage">
     <title>AI Tool Usage</title>
-    <shortdesc></shortdesc>
     <conbody>
-        <p></p>
+        <section id="section_g2k_5lc_1jc">
+            <title>Tools Used</title>
+            <p>I used the following AI tools during this assignment:<ul id="ul_ewg_xlc_1jc">
+                    <li><b>**ChatGPT**</b> – used for planning the assignment, setting up the
+                        Docusaurus framework, structuring documentation, refining wording, and
+                        troubleshooting configuration issues.</li>
+                    <li><b>**Claude**</b> – used for alternative phrasing, tone refinement, and
+                        simplifying technical explanations.</li>
+                    <li><b>**Gemini**</b> – used to compare responses, validate alternate wording,
+                        and explore different ways to present concise product messagingI used more
+                        than one AI tool intentionally. This helped me compare outputs, identify
+                        generic wording, and refine the content instead of relying on a single first
+                        draft.</li>
+                </ul></p>
+        </section>
+        <section id="section_pvn_1mc_1jc">
+            <title>How AI Was Used During the Assignment</title>
+            <p>AI was used in two main ways:</p>
+            <ol id="ol_a2s_bmc_1jc">
+                <li><b>Content support:</b>
+                    <ol id="ol_kqp_cmc_1jc">
+                        <li>drafting feature documentation</li>
+                        <li>refining release notes</li>
+                        <li>improving UI messaging</li>
+                        <li>structuring the docs-as-code workflow</li>
+                    </ol></li>
+                <li><b>Implementation support:</b><ol id="ol_xlq_fmc_1jc">
+                        <li>setting up Docusaurus from scratch</li>
+                        <li>fixing environment issues with Node, npm, and PowerShell</li>
+                        <li>correcting <codeph>sidebars.js</codeph>,
+                                <codeph>docusaurus.config.js</codeph>, and CSS</li>
+                        <li>removing default Docusaurus template content and adapting the site for
+                            the assignment</li>
+                    </ol></li>
+            </ol>
+            <p>This was useful because the assignment required both content creation and
+                documentation-site setup.</p>
+        </section>
+        <section id="section_kxv_4mc_1jc">
+            <title>Example Prompts and Observations</title>
+            <p>
+                <ul id="ul_w1y_pmc_1jc">
+                    <li><b>Bar Chart Feature Documentation</b><ul id="ul_qk5_rmc_1jc">
+                            <li>Prompt used: Write a user-facing topic for Bar charts. The
+                                documentation should be clear, simple, and well-structured. Explain
+                                what a bar chart is and when to use it. Document how to add a bar
+                                chart, configure basic data such as X-axis and Y-axis, and customize
+                                it at a high level. Do not invent features or behaviors not shown in
+                                the video or screenshots.</li>
+                            <li>What worked: <ul id="ul_tcd_5mc_1jc">
+                                    <li>It helped create an initial structure quickly</li>
+                                    <li>It gave a usable flow for:<ul id="ul_emr_5mc_1jc">
+                                            <li>overview</li>
+                                            <li>when to use it</li>
+                                            <li>add the chart</li>
+                                            <li>configure X-axis and Y-axis</li>
+                                            <li>customize at a high level</li>
+                                        </ul></li>
+                                </ul></li>
+                            <li>What didn't work:<ul id="ul_gm2_1nc_1jc">
+                                    <li>Early outputs sometimes added assumptions beyond the
+                                        screenshots</li>
+                                    <li>Some responses sounded generic and not product-specific</li>
+                                    <li>Some wording described features more broadly than the
+                                        assignment allowed</li>
+                                </ul></li>
+                            <li>How was the prompt was improved: The prompt was refined to make the
+                                constraint much stricter - Only use information visible in the
+                                provided screenshots and video. Do not invent additional chart
+                                behavior, advanced settings, or unsupported workflows.</li>
+                            <li>Why this refinement mattered: The assignment explicitly required
+                                accuracy based only on the supplied material. This prompt change
+                                helped keep the content grounded in evidence.</li>
+                        </ul></li>
+                    <li><b>Release Notes</b><ul id="ul_olv_jnc_1jc">
+                            <li>Prompt used: Write a short release note announcing the new Bar Chart
+                                added to the list of charts. Focus on user value, keep it concise,
+                                and make it sound polished without becoming overly promotional.</li>
+                            <li>What worked: <ul id="ul_plv_jnc_1jc">
+                                    <li>It helped generate concise announcement-style text
+                                        quickly.</li>
+                                    <li>It surfaced multiple tone options, from formal to slightly
+                                        more modern.</li>
+                                </ul></li>
+                            <li>What didn't work:<ul id="ul_rlv_jnc_1jc">
+                                    <li>Some initial outputs were too plain and lacked energy.</li>
+                                    <li>Other outputs became too generic or sounded like marketing
+                                        copy.</li>
+                                    <li>A few versions did not reflect the actual assignment context
+                                        strongly enough.</li>
+                                </ul></li>
+                            <li>How was the prompt was improved: The prompt was refined to better
+                                control tone - Write a concise release note for the new Bar Chart in
+                                Apps Studio. Focus on practical user value such as comparing values
+                                across categories and spotting differences more easily. Keep the
+                                tone polished and product-facing, but not promotional.</li>
+                            <li>Why this refinement mattered: This helped produce a release note
+                                that felt more thoughtful and engaging while still staying
+                                appropriate for product documentation.</li>
+                        </ul></li>
+                </ul>
+                <ul>
+                    <li><b>UI Messaging</b><ul id="ul_kr4_rnc_1jc">
+                            <li>Prompt used: Improve the user-facing messages in the provided
+                                screenshots. Make the copy clearer, more concise, and more helpful.
+                                Keep important warnings intact and align the wording with UX writing
+                                best practices.</li>
+                            <li>What worked: <ul id="ul_lr4_rnc_1jc">
+                                    <li>It helped improve clarity and sentence structure.</li>
+                                    <li>It identified wording problems such as grammar issues and
+                                        inconsistent terminology.</li>
+                                    <li>It suggested more direct action-oriented language.</li>
+                                </ul></li>
+                            <li>What didn't work:<ul id="ul_mr4_rnc_1jc">
+                                    <li>Some versions over-simplified the warning text.</li>
+                                    <li>Some suggestions removed useful context from the modal and
+                                        form copy.</li>
+                                    <li>A few outputs did not preserve example values or
+                                        field-specific guidance shown in the screenshot.</li>
+                                </ul></li>
+                            <li>How was the prompt was improved: The prompt was refined to preserve
+                                important context - Keep the warning and field-level guidance
+                                intact. Improve clarity and conciseness without removing critical
+                                information shown in the screenshot. Retain example values where
+                                they help users understand what to enter.</li>
+                            <li>Why this refinement mattered: This made the UI copy more useful and
+                                realistic, especially for the Azure Blob connection screen where the
+                                example value and exact field guidance mattered.</li>
+                        </ul></li>
+                    <li><b>Docs-as-Code Workflow</b><ul id="ul_z5z_b4c_1jc">
+                            <li>Prompt used: Write a complete step-by-step docs-as-code workflow for
+                                documenting a feature called Smart Filters from the moment the Jira
+                                ticket is received until the documentation is live in production.
+                                Include branching, authoring, pull requests, validation, review, and
+                                publishing.</li>
+                            <li>What worked: <ul id="ul_avz_b4c_1jc">
+                                    <li>It helped generate a complete lifecycle quickly.</li>
+                                    <li>It covered the expected docs-as-code mechanics well.</li>
+                                    <li>It included realistic steps such as staging review,
+                                        branching, commit workflow, PR review, validation, and
+                                        production publishing.</li>
+                                </ul></li>
+                            <li>What didn't work:<ul id="ul_bvz_b4c_1jc">
+                                    <li>The first version was too long for a Docusaurus
+                                        documentation page.</li>
+                                    <li>Some steps were too detailed for the assignment format.</li>
+                                    <li>It needed tightening to feel readable inside the
+                                        documentation site.</li>
+                                </ul></li>
+                            <li>How was the prompt was improved: The prompt was refined to control
+                                length and readability - Shorten the docs-as-code workflow to 15–18
+                                steps without losing the full process. Keep it structured,
+                                practical, and suitable for inclusion in a Docusaurus documentation
+                                page.</li>
+                            <li>Why this refinement mattered: This helped create a version that
+                                still demonstrated process maturity while being easier to read in
+                                the final submission.</li>
+                        </ul></li>
+                    <li><b>Docusaurus Setup and Troubleshooting</b><ul id="ul_g2q_j4c_1jc">
+                            <li>Prompt used: Help me get started with Docusaurus from scratch to
+                                end. I have already created the output repository and removed the
+                                docs and src folders. Guide me step by step and help me fix any
+                                setup issues.</li>
+                            <li>It supported fixing:<ul id="ul_pcf_n4c_1jc">
+                                    <li>missing Node installation</li>
+                                    <li>PowerShell execution issues</li>
+                                    <li><codeph>npm</codeph> path problems</li>
+                                    <li>Docusaurus scaffold limitations in a non-empty folder</li>
+                                    <li>sidebar and config errors</li>
+                                    <li>default template cleanup</li>
+                                    <li>homepage and CSS updates</li>
+                                </ul></li>
+                            <li>What didn't work:<ul id="ul_i2q_j4c_1jc">
+                                    <li>Some steps needed to be adapted to the actual machine
+                                        setup.</li>
+                                    <li>A few fixes had to be refined after real errors
+                                        appeared.</li>
+                                    <li>The setup process required repeated adjustment based on
+                                        local environment behavior.</li>
+                                </ul></li>
+                            <li>How was the prompt was improved: As issues appeared, the prompts
+                                became more specific, for example:<ul id="ul_qcw_s4c_1jc">
+                                    <li>explain this exact terminal error</li>
+                                    <li>fix this <codeph>docusaurus.config.js</codeph> problem</li>
+                                    <li>remove the default blog and tutorial content</li>
+                                    <li>keep the dark mode toggle but remove unwanted starter
+                                        elements</li>
+                                    <li>update the homepage to reflect assignment content instead of
+                                        default Docusaurus cards</li>
+                                </ul></li>
+                            <li>Why this refinement mattered: This made the AI support far more
+                                useful because the guidance moved from generic setup advice to
+                                issue-specific troubleshooting.</li>
+                        </ul></li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_b5c_w4c_1jc">
+            <title>Challenges Encountered While Using AI</title>
+            <p>The most useful lesson from this assignment was that AI worked best when the prompt
+                was <b>specific, constrained, and grounded in the real task</b>.</p>
+        </section>
+        <section id="section_d3l_x4c_1jc">
+            <title>Challenges that came up</title>
+            <p>
+                <ul id="ul_kly_y4c_1jc">
+                    <li><b>Generic responses:</b> Some early outputs sounded correct but were too
+                        broad or template-like.</li>
+                    <li><b>Assumptions beyond source material:</b> For the feature documentation
+                        task, AI sometimes described functionality not clearly visible in the
+                        screenshots or video.</li>
+                    <li><b>Too much detail:</b> For the docs-as-code workflow, the first outputs
+                        were complete but too long for the final Docusaurus page.</li>
+                    <li><b>Implementation vs. content mismatch:</b> Some setup suggestions needed
+                        adjustment once real Docusaurus, Node, PowerShell, and configuration errors
+                        appeared.</li>
+                    <li><b>Template leftovers:</b> During Docusaurus setup, default tutorial
+                        content, blog content, and homepage elements had to be removed manually even
+                        after the framework was working.</li>
+                </ul>
+            </p>
+        </section>
+        <section id="section_uww_dpc_1jc">
+            <title>Manual Edits Made</title>
+            <p>All AI-generated output was manually reviewed and revised before being added to the
+                final deliverables.</p>
+        </section>
+        <section id="section_mxw_2pc_1jc">
+            <title>Key manual edits included</title>
+            <p>
+                <ul id="ul_y4q_fpc_1jc">
+                    <li><b>Removing unsupported assumptions:</b> Any content not directly supported
+                        by the screenshots, video, or assignment instructions was removed.</li>
+                    <li><b>Aligning with the actual UI:</b> Labels, steps, and wording were adjusted
+                        to match what was visible in the product screenshots.</li>
+                    <li><b>Shortening content for readability:</b> Long AI-generated sections were
+                        edited to fit the Docusaurus page structure and improve scannability.</li>
+                    <li><b>Refining tone:</b> Some outputs were too generic, too formal, or too
+                        promotional. These were rewritten to sound more like polished product
+                        documentation.</li>
+                    <li><b>Improving structure:</b> Content was reorganized into a clearer sequence
+                        so that each page felt intentional and easy to navigate.</li>
+                    <li><b>Fixing technical setup manually:</b> Even when AI suggested the right
+                        direction, actual implementation still required manual updates to:<ul
+                            id="ul_zp4_lpc_1jc">
+                            <li><codeph>sidebars.js</codeph></li>
+                            <li><codeph>docusaurus.config.js</codeph></li>
+                            <li><codeph>custom.css</codeph></li>
+                            <li>homepage content</li>
+                            <li>template cleanup</li>
+                        </ul></li>
+                </ul>
+            </p>
+        </section>
     </conbody>
 </concept>

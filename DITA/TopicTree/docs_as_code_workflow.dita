@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="docs_as_code_workflow">
+    <title>End-to-End Documentation Workflow</title>
+    <taskbody>
+        <steps>
+            <step>
+                <cmd><b>Review the Jira ticket and capture the initial scope.</b></cmd>
+                <info>
+                    <p>Read the Jira ticket to understand the Smart Filters feature, expected
+                        release, linked work items, and any available acceptance criteria. Note what
+                        is known and what still needs clarification.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Confirm the release timeline and documentation deadline.</b></cmd>
+                <info>
+                    <p>Check the product release date and work backward to plan documentation
+                        drafting, review, revision, and publishing within the two-week timeline.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Identify the required stakeholders.</b></cmd>
+                <info>
+                    <p>List the product manager, developer, designer, QA contact, and release owner
+                        so you know who can confirm behavior, terminology, and final scope.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Access the feature in staging.</b></cmd>
+                <info>
+                    <p>Log in to staging, verify that Smart Filters is available, and make sure you
+                        have the right permissions, sample data, and environment access to test it
+                        properly.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Gather all available source material.</b></cmd>
+                <info>
+                    <p>Collect the Jira ticket, design files, PR links, QA notes, internal
+                        discussions, screenshots, and any related existing documentation. Keep these
+                        in one working note for traceability.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Explore the feature end to end.</b></cmd>
+                <info>
+                    <p>Use Smart Filters in staging as a user would. Record the full workflow,
+                        visible labels, states, messages, prerequisites, and any limits shown in the
+                        product.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Capture evidence from the product.</b></cmd>
+                <info>
+                    <p>Take screenshots, note exact UI text, and record sample flows. Use the
+                        product itself as the main source of truth for user-facing
+                        documentation.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Define the documentation scope.</b></cmd>
+                <info>
+                    <p>Decide what needs to be created or updated, such as a feature topic, task
+                        topic, release note, screenshots, navigation updates, and related page
+                        links.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Clarify gaps with stakeholders.</b></cmd>
+                <info>
+                    <p>Send focused questions only for the items that remain unclear after testing,
+                        such as intended terminology, supported scenarios, or known limitations.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Create a working branch in the docs repository.</b></cmd>
+                <info>
+                    <p>Pull the latest main branch and create a feature branch, such as
+                            <codeph>feature/smart-filters-docs</codeph>, so the documentation work
+                        is isolated and reviewable.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Draft or update the Markdown content.</b></cmd>
+                <info>
+                    <p>Create new pages or update existing ones in the correct Docusaurus docs
+                        folders. Add front matter, headings, and content that follows the
+                        repository’s structure and writing style.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Add assets and navigation updates.</b></cmd>
+                <info>
+                    <p>Save screenshots in the correct static assets folder, link them in the
+                        Markdown, and update sidebars or index pages so Smart Filters can be found
+                        easily in the docs site.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Run local preview and quality checks.</b></cmd>
+                <info>
+                    <p>Build and preview the site locally to confirm that pages render correctly.
+                        Check links, images, formatting, navigation, and any linting or validation
+                        rules used in the repository.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Commit and push the changes.</b></cmd>
+                <info>
+                    <p>Create clean Git commits with meaningful messages, then push the branch to
+                        the remote repository so the work is ready for collaborative review.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Open a pull request.</b></cmd>
+                <info>
+                    <p>Create a PR that summarizes the documentation changes, links the Jira ticket,
+                        and includes screenshots or preview details for reviewers.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Address review feedback and revalidate.</b></cmd>
+                <info>
+                    <p>Update the documentation based on comments from documentation reviewers and
+                        SMEs, then run the build and checks again to confirm nothing is broken.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Merge and publish the documentation.</b></cmd>
+                <info>
+                    <p>After approvals and successful checks, merge the PR into the main branch and
+                        follow the team’s publishing process so the documentation goes live with the
+                        release.</p>
+                </info>
+            </step>
+            
+            <step>
+                <cmd><b>Verify production and close the loop.</b></cmd>
+                <info>
+                    <p>Review the live documentation site to confirm the pages, links, images, and
+                        navigation work correctly. Then update the Jira ticket with the PR and
+                        published doc links and notify stakeholders that the documentation is
+                        live.</p>
+                </info>
+            </step>
+        </steps>
+    </taskbody>
+</task>
