@@ -3,7 +3,9 @@
   <name>Lyric Custom Template</name>
   <description>Lyric styled WebHelp output</description>
 
-  <resources>
-    <css file="css/lyric.css"/>
-  </resources>
+  <webhelp>
+    <resources>
+      <css file="css/lyric.css"/>
+    </resources>
+  </webhelp>
 </publishing-template>
