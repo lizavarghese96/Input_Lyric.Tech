@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="release_note_format_1">
+    <title>New chart type: Bar Chart</title>
+    <shortdesc>Apps Studio now supports <b>**Bar**</b> charts, giving users a simple way to compare
+        values across categories. Whether you are reviewing regional performance or comparing key
+        measures side by side, bar charts make data easier to review visually.</shortdesc>
+</concept>

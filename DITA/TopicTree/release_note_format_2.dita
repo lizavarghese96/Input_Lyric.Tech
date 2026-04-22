@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="release_note_format_2">
+    <title>Introduction to Bar Chart</title>
+    <shortdesc>As part of this release, a Bar chart has been added to the list of available chart
+        types in Apps Studio. This feature gives users a visual way to compare values across
+        categories and review multiple measures side by side within an interface page.Users can add
+        a Bar chart, select fields for the X-axis and Y-axis, and apply basic style changes such as
+        chart title, series colors, and labels. This addition helps make category-based data easier
+        to review and interpret.</shortdesc>
+    <conbody>
+        <section id="section_yhj_t1c_1jc">
+            <title>Impacted Users</title>
+            <p>This feature impacts users who:</p>
+            <ul id="ul_kbz_v1c_1jc">
+                <li>build interface pages in Apps Studio</li>
+                <li>configure charts for data visualization</li>
+                <li>review category-based data in application pages</li>
+            </ul>
+        </section>
+        <section id="section_t4h_x1c_1jc">
+            <title>What has changed?</title>
+            <p>Previously, the available chart options did not include a Bar chart for
+                category-based comparisons in the flow shown in the assignment material.</p>
+            <p>With this release, users can now:<ul id="ul_vnh_1bc_1jc">
+                    <li>Add a <b>Bar</b> chart from the <b>Add Chart</b> menu.</li>
+                    <li>Enter a chart title using <b>Widget Title</b>.</li>
+                    <li>Configure the chart using X-Axis and Y-Axis.</li>
+                    <li>Customize the chart by changing series colors.</li>
+                    <li>Turn on labels for the chart series.</li>
+                    <li>Apply the chart to the interface page.</li>
+                </ul></p>
+            <p>This makes it easier to compare values across groups such as regions and to view
+                multiple measures within the same chart.</p>
+        </section>
+        <section id="section_mxr_jbc_1jc">
+            <title>How do I do this?</title>
+            <p>For step-by-step instructions, refer to the <xref href="how_to_add_bar_chart.dita"/>
+                documentation in this site.</p>
+        </section>
+    </conbody>
+</concept>
