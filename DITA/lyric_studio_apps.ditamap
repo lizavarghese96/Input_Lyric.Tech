@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>Lyric.Tech Writing Assignment</title>
+    <topicref href="TopicTree/introduction.dita"/>
+    <topicref href="TopicTree/how_to_add_bar_chart.dita"/>
+    <topicref href="TopicTree/release_note.dita">
+        <topicref href="TopicTree/release_note_format_1.dita"/>
+        <topicref href="TopicTree/release_note_format_2.dita"/>
+    </topicref>
+    <topicref href="TopicTree/ai_tool_usage.dita"/>
+    <topicref href="TopicTree/ui_messaging_task.dita"/>
+    <topicref href="TopicTree/instructional_video.dita"/>
+    <topicref href="TopicTree/docs_as_code_workflow.dita"/>
+</map>
