@@ -2,8 +2,10 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Lyric.Tech Writing Assignment</title>
-    <topicref href="../TopicTree/overview_on_bar_chart.dita"/>
-    <topicref href="../TopicTree/how_to_add_bar_chart.dita"/>
+    <topicref href="../TopicTree/introduction.dita"/>
+    <topicref href="../TopicTree/overview_on_bar_chart.dita">
+        <topicref href="../TopicTree/how_to_add_bar_chart.dita"/>
+    </topicref>
     <topicref href="../TopicTree/release_note.dita"/>
     <topicref href="../TopicTree/ui_messaging_task.dita"/>
     <topicref href="../TopicTree/ai_tool_usage.dita"/>
