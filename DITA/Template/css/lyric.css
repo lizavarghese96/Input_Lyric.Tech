@@ -51,6 +51,20 @@ body.wh_main_page {
  * Fight with bootstrap
  *  
  */
+ /* Remove unnecessary header spacing */
+.wh_header {
+  box-shadow: none;
+  border-bottom: none;
+}
+
+/* Center layout */
+.wh_content_area {
+  margin-top: 2rem;
+}
+ /* Remove top navigation bar */
+.wh_top_menu {
+  display: none !important;
+}
 .navbar-brand {
   height: auto;
 }
