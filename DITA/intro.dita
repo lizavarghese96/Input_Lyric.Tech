@@ -3,6 +3,8 @@
 <topic id="intro">
     <title>Task 1 - Feature Documentation &amp; Release Notes</title>
     <body>
-        <p></p>
+        <p>This topic explains how to use bar charts in Lyric Studio, including when to use them,
+            how to add and configure them, and how to customize their appearance. It also includes
+            release notes that communicate the value of the new bar chart feature.</p>
     </body>
 </topic>
