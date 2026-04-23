@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="documentation_review_checklist">
+    <title>Documentation Review Checklist</title>
+    <shortdesc>This topic outlines the checklist used to review the documentation against the Microsoft Technical Writing Style Guide. It shows how clarity, consistency, tone, and structure were validated to improve readability and ensure a user-focused writing style.</shortdesc>
+    <conbody>
+        <p>This checklist was used to review all documentation deliverables before final submission.</p>
+        
+        <p>The review approach was guided by principles from the Microsoft Writing Style Guide, focusing on clarity, consistency, and user-first communication. Instead of applying the guide mechanically, the intent was to ensure that each page reads naturally, reflects the product accurately, and supports the user's task.</p>
+        
+        <section>
+            <title>Style and tone</title>
+            <ul>
+                <li>Uses clear, direct, and natural language</li>
+                <li>Uses active voice wherever possible</li>
+                <li>Avoids overly formal, promotional, or generic phrasing</li>
+                <li>Maintains a consistent and user-focused tone</li>
+                <li>Avoids idioms and culturally specific expressions</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Structure and readability</title>
+            <ul>
+                <li>Leads with the most important information</li>
+                <li>Uses meaningful headings that support scanning</li>
+                <li>Breaks content into short, readable sections</li>
+                <li>Avoids long paragraphs and unnecessary repetition</li>
+                <li>Uses lists only where they improve clarity</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Procedures and instructions</title>
+            <ul>
+                <li>Uses imperative verbs, for example, <b>Click</b>, <b>Select</b>, and <b>Enter</b></li>
+                <li>Keeps each step focused on a single action</li>
+                <li>Uses UI labels exactly as shown in the product</li>
+                <li>Presents steps in a logical and sequential flow</li>
+                <li>Includes results or outcomes where helpful</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Accuracy and alignment</title>
+            <ul>
+                <li>Describes only what is visible in the screenshots and video</li>
+                <li>Avoids assumptions about unsupported features</li>
+                <li>Uses consistent product terminology throughout</li>
+                <li>Ensures screenshots match the described steps</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>UI messaging</title>
+            <ul>
+                <li>Makes user actions and outcomes clear</li>
+                <li>Preserves important warnings and context</li>
+                <li>Uses concise helper text and placeholders</li>
+                <li>Avoids duplication between labels, placeholders, and descriptions</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Docs-as-code quality</title>
+            <ul>
+                <li>File names are clear and consistent</li>
+                <li>Front matter is complete and correctly formatted</li>
+                <li>Sidebar navigation reflects the content structure</li>
+                <li>Links and images render correctly</li>
+                <li>Markdown formatting is clean and consistent</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Final reflection</title>
+            <p>The goal of this checklist was not only to validate correctness, but to ensure that the documentation feels intentional, readable, and aligned with real-world product documentation standards.</p>
+            <p>Each page was reviewed with the question:</p>
+            <p><i>Would a user be able to understand and act on this without confusion?</i></p>
+        </section>
+    </conbody>
+</concept>

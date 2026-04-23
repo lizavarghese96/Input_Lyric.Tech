@@ -16,5 +16,7 @@
     <chapter href="docsascode.dita">
         <topicref href="docsascode.ditamap" format="ditamap"/>
     </chapter>
-    <chapter href="approachandchecklist.dita"/>
+    <chapter href="approachandchecklist.dita">
+        <topicref href="projectandchecklist.ditamap" format="ditamap"/>
+    </chapter>
 </bookmap>

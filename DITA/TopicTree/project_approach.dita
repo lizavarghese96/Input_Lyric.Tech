@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="project_approach">
+    <title>Project Approach</title>
+    <shortdesc>This topic describes the end-to-end documentation approach, from understanding the requirements to delivering the final content. It also outlines how the documentation was reviewed using a structured checklist aligned with the Microsoft Technical Writing Style Guide to ensure clarity, consistency, and usability.</shortdesc>
+    <conbody>
+        <p>This topic outlines how the documentation for this assignment was created, from initial setup to final review.</p>
+        
+        <p>The approach focused on building both the content and the documentation system, while staying aligned with the constraints of the assignment.</p>
+        
+        <section>
+            <title>1. Understanding the assignment</title>
+            <p>The process began by reviewing the assignment requirements and identifying:</p>
+            <ul>
+                <li>required deliverables</li>
+                <li>available source material, such as screenshots and video</li>
+                <li>constraints, such as not assuming functionality beyond what is shown</li>
+            </ul>
+            <p>This helped define the scope before any writing began.</p>
+        </section>
+        
+        <section>
+            <title>2. Structuring input and output</title>
+            <p>To keep the work organized, the setup was divided into:</p>
+            <ul>
+                <li>an input repository for source material</li>
+                <li>an output Docusaurus repository for final documentation</li>
+            </ul>
+            <p>This separation made it easier to trace content back to its source and avoid mixing raw inputs with final output.</p>
+        </section>
+        
+        <section>
+            <title>3. Setting up the documentation framework</title>
+            <p>A Docusaurus site was initialized to host the documentation.</p>
+            <p>During setup, several issues were resolved, including:</p>
+            <ul>
+                <li>environment configuration, such as Node, npm, and terminal setup</li>
+                <li>project initialization within an existing repository</li>
+                <li>fixing configuration files such as <codeph>sidebars.js</codeph> and <codeph>docusaurus.config.js</codeph></li>
+                <li>removing default template content</li>
+            </ul>
+            <p>The goal was to create a clean, minimal documentation site focused on the assignment.</p>
+        </section>
+        
+        <section>
+            <title>4. Defining the documentation structure</title>
+            <p>The documentation was organized into task-based pages:</p>
+            <ul>
+                <li>Feature documentation</li>
+                <li>Release notes</li>
+                <li>AI tool usage</li>
+                <li>UI messaging</li>
+                <li>Docs-as-code workflow</li>
+            </ul>
+            <p>This ensured that each deliverable was clearly separated and easy to review.</p>
+        </section>
+        
+        <section>
+            <title>5. Writing from source evidence</title>
+            <p>All documentation was created by reviewing the provided screenshots and video.</p>
+            <p>Key decisions included:</p>
+            <ul>
+                <li>describing only observable behavior</li>
+                <li>avoiding assumptions about hidden functionality</li>
+                <li>using UI labels exactly as shown</li>
+            </ul>
+            <p>This ensured accuracy and alignment with the assignment expectations.</p>
+        </section>
+        
+        <section>
+            <title>6. Iterative refinement</title>
+            <p>Initial drafts were refined to improve:</p>
+            <ul>
+                <li>clarity and readability</li>
+                <li>structure and flow</li>
+                <li>consistency with UI terminology</li>
+                <li>alignment with user tasks</li>
+            </ul>
+            <p>Content was reorganized where needed to follow a clear pattern: <b>What → When → How</b>.</p>
+        </section>
+        
+        <section>
+            <title>7. Using AI tools thoughtfully</title>
+            <p>AI tools were used to support drafting, structuring, and troubleshooting.</p>
+            <p>However, all outputs were manually reviewed and adjusted to:</p>
+            <ul>
+                <li>remove unsupported assumptions</li>
+                <li>improve tone and clarity</li>
+                <li>align with the actual product behavior</li>
+                <li>fit the documentation structure</li>
+            </ul>
+            <p>AI was treated as a support tool, not a source of truth.</p>
+        </section>
+        
+        <section>
+            <title>8. Reviewing against style principles</title>
+            <p>All content was reviewed using a checklist based on Microsoft-style writing principles.</p>
+            <p>The focus was on:</p>
+            <ul>
+                <li>clear and direct language</li>
+                <li>active voice</li>
+                <li>scannable structure</li>
+                <li>user-focused instructions</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>9. Refining the documentation site</title>
+            <p>The Docusaurus site was further customized to:</p>
+            <ul>
+                <li>remove default template elements</li>
+                <li>improve readability and layout</li>
+                <li>align the visual presentation with a more modern documentation style</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>10. Final validation</title>
+            <p>Before submission, the documentation was reviewed to ensure:</p>
+            <ul>
+                <li>accuracy</li>
+                <li>consistency</li>
+                <li>completeness</li>
+                <li>correct rendering in the documentation site</li>
+            </ul>
+        </section>
+        
+        <section>
+            <title>Final note</title>
+            <p>This approach reflects not just the final documentation, but the process used to create it.</p>
+            <p>The focus was on building documentation that is:</p>
+            <ul>
+                <li>accurate</li>
+                <li>clear</li>
+                <li>structured</li>
+                <li>aligned with how real product documentation is developed</li>
+            </ul>
+        </section>
+    </conbody>
+</concept>
