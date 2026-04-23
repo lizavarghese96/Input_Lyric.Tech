@@ -7,4 +7,7 @@
     <chapter href="intro.dita">
         <topicref href="lyric_studio_apps.ditamap" format="ditamap"/>
     </chapter>
+    <chapter href="uimessage.dita"/>
+    <chapter href="instructional_video.dita"/>
+    <chapter href="docsascode.dita"/>
 </bookmap>
