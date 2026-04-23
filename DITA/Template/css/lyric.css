@@ -2,26 +2,29 @@
 
 /*
  * Lyric.Tech-inspired Oxygen WebHelp skin
- * Light theme with dark tiles and clean readability
+ * Light overall page, dark premium tiles, image-backed search band
  */
 
 :root {
-  --lyric-bg: #ffffff;
+  --lyric-page-bg: #ffffff;
   --lyric-surface: #0b0b0b;
   --lyric-surface-2: #111111;
-  --lyric-border: rgba(255, 255, 255, 0.28);
+  --lyric-border-dark: rgba(255, 255, 255, 0.42);
+  --lyric-border-dark-hover: rgba(255, 255, 255, 0.56);
   --lyric-text: #1b1b1b;
   --lyric-text-muted: #5f6368;
   --lyric-heading: #111111;
   --lyric-link: #2563eb;
-  --lyric-accent: #4f46ff;
-  --lyric-search-bg: #ffffff;
   --lyric-search-border: rgba(17, 17, 17, 0.12);
+  --lyric-card-bg: #0b0b0b;
+  --lyric-card-text: #ffffff;
+  --lyric-card-text-muted: rgba(255, 255, 255, 0.76);
 }
 
+/* Base */
 body {
   font-family: Inter, "Helvetica Neue", Arial, sans-serif;
-  background-color: var(--lyric-bg);
+  background-color: var(--lyric-page-bg);
   color: var(--lyric-text);
   font-size: 20px;
   line-height: 1.8;
@@ -98,7 +101,7 @@ a:hover {
   .wh_main_page .wh_publication_title a {
     font-size: 4rem;
     width: 100%;
-    margin: 1.25em 0 0.85em;
+    margin: 1.15em 0 0.75em;
     text-align: center;
   }
 }
@@ -117,60 +120,47 @@ a:hover {
 
 /* Main page content area */
 .wh_main_page .wh_content_area {
-  position: relative;
   background-color: #ffffff;
   margin-bottom: 0;
-  padding: 3em 0 2em 0;
+  padding: 2.25em 0 2em 0;
   color: var(--lyric-text);
   text-align: center;
   align-items: center;
-  overflow: hidden;
 }
 
-/* Background image behind the search area */
-.wh_main_page .wh_content_area::before {
+/* Search area inspired by the other WebHelp */
+.wh_search_input {
+  display: block;
+  padding: 7em 2em;
+  margin: 0 0 2em 0;
+  background: url("../img/hero-bg.jpg") no-repeat center;
+  background-size: cover;
+  box-shadow: 0px 7px 21px -12px rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+
+/* Soft white overlay for readability */
+.wh_search_input::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 260px;
-  background-image: url("../img/hero-bg.jpg");
-  background-size: cover;
-  background-position: center;
-  opacity: 0.22;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.72);
   z-index: 0;
 }
 
-.wh_main_page .wh_content_area::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 260px;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.65), rgba(255, 255, 255, 0.96));
+.wh_search_input > * {
+  position: relative;
   z-index: 1;
 }
 
-.wh_search_input,
-.wh_tiles,
-.wh_main_page_toc,
-.wh_main_page .wh_publication_title {
-  position: relative;
-  z-index: 2;
-}
-
-/* Search */
-.wh_search_input {
-  padding: 1.2em 0 1.8em 0;
-  margin: 0;
-  text-align: center;
-  color: var(--lyric-text);
+@media only screen and (max-width: 767px) {
+  .wh_search_input {
+    padding: 3em 1.2em;
+  }
 }
 
 .wh_main_page_search {
-  background-color: #ffffff;
+  background-color: transparent;
 }
 
 @media only screen and (min-width: 768px) {
@@ -181,17 +171,18 @@ a:hover {
   }
 }
 
+/* Search box */
 .wh_main_page .wh_search_textfield,
 .wh_main_page .wh_search_button {
-  height: 1.55em;
-  font-size: 1.45em;
+  height: 1.45em;
+  font-size: 1.25em;
 }
 
 .wh_search_textfield,
 .wh_search_button {
   border: 1px solid var(--lyric-search-border);
   color: #111111;
-  background-color: var(--lyric-search-bg);
+  background-color: #ffffff;
 }
 
 .wh_search_textfield {
@@ -200,10 +191,11 @@ a:hover {
 
 .wh_search_button {
   border-radius: 0 999px 999px 0 !important;
+  background-color: #ffffff;
 }
 
 .wh_search_button:hover {
-  background-color: #f5f7ff;
+  background-color: #f7f7f8;
 }
 
 ::-webkit-input-placeholder {
@@ -220,8 +212,12 @@ a:hover {
 }
 
 /* Tiles */
+.wh_tiles {
+  margin: 1.5em 0 0 0;
+}
+
 .wh_tile_shortdesc {
-  color: rgba(255, 255, 255, 0.76);
+  color: var(--lyric-card-text-muted);
   font-weight: 400;
   font-size: 1.05rem;
   margin-top: 0.5em;
@@ -237,7 +233,7 @@ a:hover {
 
 .wh_tile_title a {
   text-align: left;
-  color: #ffffff !important;
+  color: var(--lyric-card-text) !important;
   font-family: "PP Mori", Inter, "Helvetica Neue", Arial, sans-serif;
   font-size: 1.45rem;
   font-weight: 600;
@@ -245,8 +241,8 @@ a:hover {
 }
 
 .wh_tile > div {
-  background-color: var(--lyric-surface);
-  border: 1px solid rgba(255, 255, 255, 0.42);
+  background-color: var(--lyric-card-bg);
+  border: 1px solid var(--lyric-border-dark);
   border-radius: 16px;
   padding: 1.5rem;
   transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
@@ -254,7 +250,7 @@ a:hover {
 
 .wh_tile > div:hover {
   transform: translateY(-2px);
-  border-color: rgba(255, 255, 255, 0.56);
+  border-color: var(--lyric-border-dark-hover);
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.08);
 }
 

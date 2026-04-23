@@ -14,7 +14,6 @@
     <resources>
       <css file="css/lyric.css"/>
       <css file="css/notes.css"/>
-      <logo file="img/logo.png" alt="Lyric logo"/>
       <fileset>
         <include name="img/**/*"/>
       </fileset>

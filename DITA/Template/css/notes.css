@@ -1,44 +1,43 @@
 *[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
-  border: 1px solid rgba(17, 17, 17, 0.12);
-  border-radius: 12px;
-  background-color: #f7f8ff;
-  color: #1b1b1b;
+  border: 1px solid;
+  border-radius: 11px;
   padding: 1rem 1.25rem;
 }
 
+/* Keep the note title on its own line */
 span.note__title {
   display: block;
   font-weight: 600;
-  color: #111111;
   margin-bottom: 0.35rem;
 }
 
 /* Standard note */
 *[class~="topic/note"]:not([class~="hazard-d/hazardstatement"]) {
-  background-color: rgba(79, 70, 255, 0.08);
-  border-color: #4f46ff;
-}
-
-/* Warning / important */
-*[class~="topic/note"].note_warning,
-*[class~="topic/note"].note_attention,
-*[class~="topic/note"].note_important {
-  background-color: rgba(255, 202, 45, 0.16);
-  border-color: #ffca2d;
+  background-color: rgba(0, 120, 160, 0.09);
+  border-color: #0078A0;
   color: #1b1b1b;
 }
 
-/* Caution / danger */
+/* Danger / caution */
 *[class~="topic/note"].note_danger,
 *[class~="topic/note"].note_caution {
-  background-color: rgba(255, 160, 45, 0.16);
-  border-color: #ff9d2d;
+  background-color: rgba(255, 202, 45, 0.10);
+  border-color: #606060;
+  color: #1b1b1b;
+}
+
+/* Warning / attention / important */
+*[class~="topic/note"].note_warning,
+*[class~="topic/note"].note_attention,
+*[class~="topic/note"].note_important {
+  background-color: rgba(255, 202, 45, 0.10);
+  border-color: #FFCA2D;
   color: #1b1b1b;
 }
 
 /* Restriction */
 *[class~="topic/note"].note_restriction {
-  background-color: rgba(255, 52, 45, 0.12);
-  border-color: #ff342d;
+  background-color: rgba(255, 226, 225, 0.32);
+  border-color: #FF342D;
   color: #1b1b1b;
 }
