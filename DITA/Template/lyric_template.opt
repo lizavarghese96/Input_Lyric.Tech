@@ -6,17 +6,17 @@
   <webhelp>
     <tags>
       <tag>tiles</tag>
-      <tag>dark</tag>
+      <tag>light</tag>
     </tags>
 
-    <preview-image file="images/preview.png"/>
+    <preview-image file="img/preview.png"/>
 
     <resources>
       <css file="css/lyric.css"/>
       <css file="css/notes.css"/>
-      <logo file="images/logo.png" alt="Lyric logo"/>
+      <logo file="img/logo.png" alt="Lyric logo"/>
       <fileset>
-        <include name="images/**/*"/>
+        <include name="img/**/*"/>
       </fileset>
     </resources>
 
