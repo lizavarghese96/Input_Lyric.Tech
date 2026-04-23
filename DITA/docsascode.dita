@@ -2,9 +2,8 @@
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="docsascode">
     <title>Task 4 - Docs-as-Code Familiarity</title>
-    <body>
-        <p>This topic outlines the end-to-end documentation workflow using a docs-as-code approach.
-            It describes how documentation is planned, created, reviewed, and published, ensuring
-            consistency, traceability, and alignment with the product release cycle.</p>
-    </body>
+    <shortdesc>This topic outlines the end-to-end documentation workflow using a docs-as-code
+        approach. It describes how documentation is planned, created, reviewed, and published,
+        ensuring consistency, traceability, and alignment with the product release
+        cycle.</shortdesc>
 </topic>
