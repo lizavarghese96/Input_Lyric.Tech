@@ -4,6 +4,9 @@
     <booktitle>
         <mainbooktitle>Lyric Assignment</mainbooktitle>
     </booktitle>
+    <chapter href="approachandchecklist.dita">
+        <topicref href="projectandchecklist.ditamap" format="ditamap"/>
+    </chapter>
     <chapter href="intro.dita">
         <topicref href="lyric_studio_apps.ditamap" format="ditamap"/>
     </chapter>
@@ -15,8 +18,5 @@
     </chapter>
     <chapter href="docsascode.dita">
         <topicref href="docsascode.ditamap" format="ditamap"/>
-    </chapter>
-    <chapter href="approachandchecklist.dita">
-        <topicref href="projectandchecklist.ditamap" format="ditamap"/>
     </chapter>
 </bookmap>
