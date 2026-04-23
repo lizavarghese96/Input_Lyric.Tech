@@ -2,6 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="release_note">
     <title>Release Note</title>
-    <shortdesc>This documentation showcases two types of release notes. </shortdesc>
-    <conbody/>
+    <shortdesc>This topic presents two release note formats for the Bar Chart feature: a concise, user-focused summary and a detailed, structured version for deeper understanding.</shortdesc>
+    <conbody>
+        <ul id="ul_ixb_z3h_1jc">
+            <li><xref href="release_note_format_1.dita"/></li>
+            <li><xref href="release_note_format_2.dita"/></li>
+        </ul>
+    </conbody>
 </concept>
