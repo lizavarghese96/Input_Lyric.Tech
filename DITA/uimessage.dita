@@ -5,4 +5,9 @@
     <shortdesc>This topic presents improved user interface messages designed to make system
         interactions clearer and more intuitive. It includes updates to modal dialogs and form
         fields to help users understand actions, inputs, and potential impacts.</shortdesc>
+    <body>
+        <p>For more information, refer to the following topic:<ul id="ul_i1t_qfr_1jc">
+                <li><xref href="TopicTree/ui_messaging_task.dita"/></li>
+            </ul></p>
+    </body>
 </topic>

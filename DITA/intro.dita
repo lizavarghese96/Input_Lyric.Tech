@@ -5,4 +5,11 @@
     <shortdesc>This topic explains how to use bar charts in Lyric Studio, including when to use
         them, how to add and configure them, and how to customize their appearance. It also includes
         release notes that communicate the value of the new bar chart feature.</shortdesc>
+    <body>
+        <p>For more information, refer to the following topics:<ul id="ul_i1t_qfr_1jc">
+                <li><xref href="TopicTree/how_to_add_bar_chart.dita"/></li>
+                <li><xref href="TopicTree/release_note.dita"/></li>
+                <li><xref href="TopicTree/ai_tool_usage.dita"/></li>
+            </ul></p>
+    </body>
 </topic>

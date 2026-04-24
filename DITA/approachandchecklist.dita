@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="approachandchecklist">
-    <title>Project Approach and Review Checklist</title>
-    <shortdesc>
-        This topic describes the end-to-end documentation approach, from understanding the requirements to delivering the final content. It also outlines how the documentation was reviewed using a structured checklist aligned with the Microsoft Technical Writing Style Guide to ensure clarity, consistency, and usability.
-    </shortdesc>
+    <title>Documentation Review Checklist</title>
+    <shortdesc> This topic provides the checklist for end-to-end documentation review. It outlines
+        how the documentation was reviewed using a structured checklist aligned with the Microsoft
+        Technical Writing Style Guide to ensure clarity, consistency, and usability.</shortdesc>
+    <body>
+        <p>For more information, refer to the following topic:<ul id="ul_i1t_qfr_1jc">
+                <li><xref href="TopicTree/review_checklist.dita"/></li>
+            </ul></p>
+    </body>
 </topic>

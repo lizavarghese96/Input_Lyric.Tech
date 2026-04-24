@@ -5,4 +5,9 @@
     <shortdesc>This topic introduces a short instructional video that demonstrates how to upgrade a
         Note in Lyric Studio. It guides users through the process step by step, helping them
         understand version changes and complete the upgrade successfully.</shortdesc>
+    <body>
+        <p>For more information, refer to the following topic:<ul id="ul_i1t_qfr_1jc">
+                <li><xref href="TopicTree/instructional_video.dita"/></li>
+            </ul></p>
+    </body>
 </topic>

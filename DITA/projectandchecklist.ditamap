@@ -2,6 +2,5 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
     <title>Project Approach and Review Checklist</title>
-    <topicref href="TopicTree/project_approach.dita"/>
     <topicref href="TopicTree/review_checklist.dita"/>
 </map>

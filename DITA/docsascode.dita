@@ -6,4 +6,9 @@
         approach. It describes how documentation is planned, created, reviewed, and published,
         ensuring consistency, traceability, and alignment with the product release
         cycle.</shortdesc>
+    <body>
+        <p>For more information, refer to the following topic:<ul id="ul_i1t_qfr_1jc">
+                <li><xref href="TopicTree/docs_as_code_workflow.dita"/></li>
+            </ul></p>
+    </body>
 </topic>
