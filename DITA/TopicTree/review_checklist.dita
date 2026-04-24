@@ -2,81 +2,89 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="documentation_review_checklist">
     <title>Documentation Review Checklist</title>
-    <shortdesc>This topic outlines the checklist used to review the documentation against the Microsoft Technical Writing Style Guide. It shows how clarity, consistency, tone, and structure were validated to improve readability and ensure a user-focused writing style.</shortdesc>
+    <shortdesc>This topic describes the checklist used to review all documentation deliverables for clarity, accuracy, grammar, structure, and user-focused communication.</shortdesc>
+    
     <conbody>
-        <p>This checklist was used to review all documentation deliverables before final submission.</p>
+        <p>This checklist was used to review every documentation deliverable before final submission.</p>
         
-        <p>The review approach was guided by principles from the Microsoft Writing Style Guide, focusing on clarity, consistency, and user-first communication. Instead of applying the guide mechanically, the intent was to ensure that each page reads naturally, reflects the product accurately, and supports the user's task.</p>
+        <p>The review was based on principles from the Microsoft Writing Style Guide, especially clarity, consistency, plain language, and user-first communication. The checklist was not used as a rigid rulebook. It was used as a practical way to read each page like a real user would: checking whether the content is easy to follow, accurate to the screenshots and video, and free from unnecessary wording or grammar issues.</p>
         
         <section>
             <title>Style and tone</title>
             <ul>
                 <li>Uses clear, direct, and natural language</li>
                 <li>Uses active voice wherever possible</li>
-                <li>Avoids overly formal, promotional, or generic phrasing</li>
-                <li>Maintains a consistent and user-focused tone</li>
-                <li>Avoids idioms and culturally specific expressions</li>
+                <li>Avoids overly formal, promotional, or generic wording</li>
+                <li>Sounds helpful and user-focused</li>
+                <li>Avoids idioms, slang, and culturally specific expressions</li>
+                <li>Uses consistent grammar, punctuation, and capitalization</li>
             </ul>
         </section>
         
         <section>
             <title>Structure and readability</title>
             <ul>
-                <li>Leads with the most important information</li>
-                <li>Uses meaningful headings that support scanning</li>
+                <li>Starts with the most useful information</li>
+                <li>Uses headings that help readers scan the page</li>
                 <li>Breaks content into short, readable sections</li>
-                <li>Avoids long paragraphs and unnecessary repetition</li>
-                <li>Uses lists only where they improve clarity</li>
+                <li>Keeps paragraphs focused and easy to follow</li>
+                <li>Removes repeated or unnecessary information</li>
+                <li>Uses lists only when they make the content easier to read</li>
             </ul>
         </section>
         
         <section>
             <title>Procedures and instructions</title>
             <ul>
-                <li>Uses imperative verbs, for example, <b>Click</b>, <b>Select</b>, and <b>Enter</b></li>
-                <li>Keeps each step focused on a single action</li>
+                <li>Uses direct action verbs, such as <b>Click</b>, <b>Select</b>, and <b>Enter</b></li>
+                <li>Keeps each step focused on one action</li>
+                <li>Presents steps in the correct order</li>
                 <li>Uses UI labels exactly as shown in the product</li>
-                <li>Presents steps in a logical and sequential flow</li>
-                <li>Includes results or outcomes where helpful</li>
+                <li>Adds a result or outcome when it helps the user understand what happens next</li>
+                <li>Avoids adding steps that are not visible in the screenshots or video</li>
             </ul>
         </section>
         
         <section>
-            <title>Accuracy and alignment</title>
+            <title>Accuracy and product alignment</title>
             <ul>
-                <li>Describes only what is visible in the screenshots and video</li>
-                <li>Avoids assumptions about unsupported features</li>
-                <li>Uses consistent product terminology throughout</li>
-                <li>Ensures screenshots match the described steps</li>
+                <li>Describes only what is shown in the provided screenshots and video</li>
+                <li>Avoids assumptions about hidden or unsupported functionality</li>
+                <li>Uses consistent product terminology across all files</li>
+                <li>Checks that screenshots support the surrounding text</li>
+                <li>Confirms that examples and field names match the source material</li>
             </ul>
         </section>
         
         <section>
-            <title>UI messaging</title>
+            <title>UI messaging review</title>
             <ul>
-                <li>Makes user actions and outcomes clear</li>
-                <li>Preserves important warnings and context</li>
+                <li>Makes the user action clear</li>
+                <li>Explains the outcome or impact where needed</li>
+                <li>Keeps warnings clear without making them too long</li>
                 <li>Uses concise helper text and placeholders</li>
-                <li>Avoids duplication between labels, placeholders, and descriptions</li>
+                <li>Keeps useful examples, such as field values, where they help the user</li>
+                <li>Avoids repeating the same information in labels, placeholders, and descriptions</li>
             </ul>
         </section>
         
         <section>
             <title>Docs-as-code quality</title>
             <ul>
-                <li>File names are clear and consistent</li>
-                <li>Front matter is complete and correctly formatted</li>
-                <li>Sidebar navigation reflects the content structure</li>
-                <li>Links and images render correctly</li>
-                <li>Markdown formatting is clean and consistent</li>
+                <li>Uses clear and consistent file names</li>
+                <li>Includes correct front matter</li>
+                <li>Keeps sidebar navigation in the intended order</li>
+                <li>Checks that links, images, and video references work</li>
+                <li>Uses clean Markdown formatting</li>
+                <li>Confirms that the site builds and renders correctly</li>
             </ul>
         </section>
         
         <section>
-            <title>Final reflection</title>
-            <p>The goal of this checklist was not only to validate correctness, but to ensure that the documentation feels intentional, readable, and aligned with real-world product documentation standards.</p>
-            <p>Each page was reviewed with the question:</p>
-            <p><i>Would a user be able to understand and act on this without confusion?</i></p>
+            <title>Final review question</title>
+            <p>After reviewing each file, the final check was simple: <i>Would a user be able to
+                    understand this page and complete the task without confusion?</i></p>
+            <p>This question helped keep the review practical. It ensured that the final documentation was not only technically correct, but also readable, useful, and ready for review.</p>
         </section>
     </conbody>
 </concept>

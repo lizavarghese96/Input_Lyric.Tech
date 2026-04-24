@@ -30,12 +30,8 @@
             <p><b>Azure Blob Storage Container Name</b></p>
             <p><b>Placeholder:</b> Enter the container name</p>
             <p><b>Helper text:</b> Enter the name of the Azure Blob Storage container.</p>
-            <dl>
-                <dlentry>
-                    <dt>Streams to Sync</dt>
-                    <dd><b>Action:</b> Add</dd>
-                </dlentry>
-            </dl>
+            <p><b>Streams to Sync</b></p>
+            <p><b>Action:</b> Add</p>
         </section>
     </conbody>
 </concept>
